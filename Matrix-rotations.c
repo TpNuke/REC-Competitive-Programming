@@ -15,13 +15,6 @@ void rotate(int n,int a[n][n],int ang){
         }
     }
     ang--;
-    }
-    // for(int i=0;i<n;i++){
-    //     for(int j=0;j<n;j++){
-    //         printf("%d ",a[i][j]);
-    //     }
-    //     printf("\n");
-    // }
 }
 
 int main(){
@@ -43,7 +36,6 @@ int main(){
             scanf("%d\n",&ang);
             rotate(n,a,ang);
             totrot+=ang;
-            // break;
         }
         else if(c=='Q'){
             int k,l;
