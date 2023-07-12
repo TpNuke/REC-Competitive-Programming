@@ -1,0 +1,51 @@
+Given an integer n as input, print an inverted full pyramid of n rows.
+
+Input Format:
+
+Take input an integer from stdin.
+
+Output Format:
+
+Print the pattern
+
+Example Input:
+
+10
+
+Output:
+
+* * * * * * * * * *
+
+ * * * * * * * * *
+
+  * * * * * * * *
+
+   * * * * * * *
+
+    * * * * * *
+
+     * * * * *
+
+      * * * *
+
+       * * *
+
+        * *
+
+         *
+
+
+For example:
+
+Input	Result
+10
+* * * * * * * * * * 
+ * * * * * * * * * 
+  * * * * * * * * 
+   * * * * * * * 
+    * * * * * * 
+     * * * * * 
+      * * * * 
+       * * * 
+        * * 
+         *
