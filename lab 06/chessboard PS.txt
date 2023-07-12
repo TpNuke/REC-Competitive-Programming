@@ -1,0 +1,48 @@
+Let’s print a chessboard!
+
+Write a program that takes input:
+
+The first line contains T, the number of test cases
+
+Each test case contains an integer N and also the starting character of the chessboard
+
+Output Format
+
+Print the chessboard as per the given examples
+
+Sample Input / Output
+
+Input:
+
+2
+
+2 W
+
+3 B
+
+Output:
+
+WB
+
+BW
+
+BWB
+
+WBW
+
+BWB
+
+ 
+
+
+For example:
+
+Input	Result
+2
+2 W
+3 B
+WB
+BW
+BWB
+WBW
+BWB
