@@ -1,0 +1,103 @@
+Decode the logic and print the Pattern that corresponds to given input.
+
+If N= 3
+
+then pattern will be:
+
+10203010011012
+
+**4050809
+
+****607
+
+If N= 4, then pattern will be:
+
+1020304017018019020
+
+**50607014015016
+
+****809012013
+
+******10011
+
+Constraints
+
+· 2 <= N <= 100
+
+Input Format
+
+· First line contains T, the number of test cases
+
+· Each test case contains a single integer N
+
+Output
+
+1. First line print Case #i where i is the test case number
+
+2. In the subsequent line, print the pattern
+
+Test Case 1
+
+3
+
+3
+
+4
+
+5
+
+Output
+
+Case #1
+
+10203010011012
+
+**4050809
+
+****607
+
+Case #2
+
+1020304017018019020
+
+**50607014015016
+
+****809012013
+
+******10011
+
+Case #3
+
+102030405026027028029030
+
+**6070809022023024025
+
+****10011012019020021
+
+******13014017018
+
+********15016
+
+
+For example:
+
+Input	Result
+3
+3
+4
+5
+Case #1
+10203010011012
+**4050809
+****607
+Case #2
+1020304017018019020
+**50607014015016
+****809012013
+******10011
+Case #3
+102030405026027028029030
+**6070809022023024025
+****10011012019020021
+******13014017018
+********15016
