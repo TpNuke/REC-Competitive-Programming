@@ -7,9 +7,6 @@ int main()
     int n=strlen(c);
     int p=1;
     for(int i=0;i<n;i++){
-        for(int j=0;n%2==0 ? j<n/2 : j<=n/2;j++){
-           
-        }
         if(i<=n/2)
             printf("%*s",i,"");
         if(i>n/2)
