@@ -1,0 +1,56 @@
+A rotation on a string is defined as removing first element and concatenating it at the end.
+
+Given N, and an array of N strings, print the minimum no. of cumulative rotations on the strings so as to make all the strings equal.
+
+If this is not possible return -1
+
+Input format
+
+· The first line contains N, the number of strings
+
+· This is followed by N strings
+
+Constraints
+
+· 2 <= N <= 104
+
+· 3 <= string length <= 100
+
+· All characters are in uppercase
+
+Example Input
+
+4
+
+AABCD
+
+CDAAB
+
+DAABC
+
+AABCD
+
+Output
+
+3
+
+Explanation
+
+· Finally, all the string will become aabcd. First and last strings require no rotations.
+
+· Second string requires 2 rotations
+
+· Last string requires 1 rotation
+
+· Hence total rotations required are 3
+
+
+For example:
+
+Input	Result
+4
+AABCD
+CDAAB
+DAABC
+AABCD
+3
